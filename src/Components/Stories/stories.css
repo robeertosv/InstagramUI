@@ -1,0 +1,30 @@
+.storiesContainer {
+    height: 16%;
+    margin-top: 2%;
+    border-bottom: 1px solid #eeeeee94;
+    display: flex;
+
+}
+.storie{
+    width: 75px;
+    padding: 5.75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+.storie img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.no_mejo {border: 3px solid rgb(255, 3, 221);}
+.mejo {
+    border: 3px solid rgb(3, 255, 58);
+}
+.storie p {
+    color: #eee;
+}
